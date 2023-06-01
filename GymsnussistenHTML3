@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href ="style.css" rel = "stylesheet">
+        <title> Hemsida</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header id="Account_Site">
+            <ul id="Header_account">
+                <li id="GymSnussisten_account"><a  href = "index.html"> GymSnussisten</a></li>
+                <li><input type= "search" id = "site-search" name = "q"placeholder="Search"></li>
+            </ul>
+            <a><img src="Bilder/Hamburger.png" id = "Ham_Menu"></a>
+        </header>
+        <main id ="Skapa_konto">
+            <div id="Logga_in">
+                <li><h2>Skapa Konto</h2></li>
+                <li><input type="text" placeholder="Förnamn     Efternamn"></li>
+                <li><input type="text" placeholder="Mail  |  Telefonnummer"></li>
+                <li><input type="password" placeholder="Lösenord"></li>
+                <li><input type="password" placeholder="Bekräfta lösenord"></li>
+                <ul id="Checkbox_mark">
+                    <li class="checkbox">
+                        <input class="checkbox" type= "checkbox"  value="1" />
+                    </li>
+                    <li><p>Du accepterar våran policy att ta hand om dina person uppgifter.</p></li>
+                </ul>
+                <li><button id = "skapa_konto_knapp">Skapa Konto</button></li>
+            </div>
+            <img src="Bilder/Account_image.png" id="Account_img">
+        </main>
+        <footer>
+            <h1>Tack för att du stödjer vårat sätt att ändra sveriges gym kultur!</h1>
+        </footer>
+    </body>
