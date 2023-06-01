@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href ="style.css" rel = "stylesheet">
+        <title> Hemsida</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class = "Rubrik"> 
+
+                    <a id="GymSnussisten" href = "index.html"> GymSnussisten</a>
+
+                    <input type= "search" id = "site-search" name = "q"placeholder="Search">
+
+                    <ul>
+                        <a href="Acoount.html" id = "account">Account </a>
+
+
+                        <div class = "Bag">
+
+                            <a><img src="Bilder/Bag.png"></a>
+                            <p>Bag</p>
+                            <a><img src="Bilder/Hamburger.png" id = "Ham_Menu"></a>
+                        </div>
+                    </ul>
+                </div>
+                   
+            
+                <ul class="Products">
+                    <li><a href ="Pre-Snus.html?product=preSnus">Pre-Snus</a></li>
+                    <li><a href = "Pre-Snus.html?product=gainer">Meth gainer</a></li>
+                    <li><a href = "Pre-Snus.html?product=creatine">Crystal Cratine</a></li>
+                    <li><a href = "Pre-Snus.html?product=shrooms">Keto shrooms</a></li>
+                    <li><a href = "Pre-Snus.html?product=tren">Tren</a></li>
+                </ul>
+                 
+
+                
+                <ul class="Leverans">
+                    <li>Leverans från EU</li>
+                    <li>5-7 dagar leverans</li>
+                    <li>Fri frakt över 33kr</li>
+                </ul>
+            
+            </nav>
+        </header>
+
+        <main>
+            <section id="Produkt">
+               
+                <ul>
+                    <li><h1>Tillbaka</h1></li>
+                    <li><img src="" id = "snus_img"></li>
+                </ul>
+
+                <div id="Produkt_list">
+                    <h1 id="H1"></h1>
+                    <p>Gymsnussisten</p>
+                        <div id="Recentioner">
+                            <h2 id ="H2"></h2>
+                            <p>Recentioner</p>
+                        </div>
+                    <h2 id = "Pris"></h2>
+                    <h2 id="Kundvagn">Kundvagn</h2>
+                    <p id ="beskrivning"></p>
+                </div>
+            
+            </section>
+
+             <section id="Produkter">
+                <h1>Trender</h1>
+                <div id="Karuseell_snus">
+                    <li>
+                        <img src="Bilder/Snus.jpeg" alt="Snus" >
+                        <p>Pre-Snus</p>
+                    </li>
+                    <li>
+                        <img src="Bilder/Crystal_creatine.jpg" alt="">
+                        <p>Crystal Creatine</p>
+                    </li>
+                    <li>
+                        
+                        <img src="Bilder/Shrooms.png" alt="">
+                       <p>Keto Shrooms</p>
+                    </li>
+                    <li>
+                        <img src="Bilder/Methgainer.jpg" alt="">
+                        <p>Gainer</p>
+                    </li>
+                </div>
+
+                <div id="k2" id = "karusell_gömd">
+                    <li>
+                        <img src="Bilder/Tren.jpg" alt="">
+                        <p>Tren</p>
+                    </li>
+                    <li>
+                        <img src="Bilder/Wife_beater.png" alt="">
+                        <p>Wife Beater</p>
+                    </li>
+                </div>
+
+                <button id="visa_mer_knapp" onclick="visaProduct()">Visa mer</button>
+
+             </section>
+        </main>
+
+        
+        <footer>
+            <ul>
+                <li>________________________________________________</li>
+                <li>________________________________________________</li>
+                <li>________________________________________________</li>
+                <li>________________________________________________</li>
+         
+            </ul>   
+                
+            <ul>    
+                <div id="Footer_Div">
+                    <img src="Bilder/Flagga.png" id="Sverige_flagga">
+                    <li>Gymsnussuisten Swe AB</li>
+                </div>
+
+                <p>+46-762164939</p>
+
+            </ul>
+            
+            <ul id="Social_Media">
+                <img src="Bilder/Insta_logo.png" alt="">
+                <img src="Bilder/twitter.png" alt="">
+                <img src="Bilder/Youtube.png" id="Youtube_image">
+                <p>@GymsnussistenSE</p>
+            </ul>
+        </footer>
+
+
+        <script src ="action.js"></script>
+    </body>
+</html>
