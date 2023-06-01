@@ -1,0 +1,70 @@
+window.onload = function() {
+    var params = new URLSearchParams(window.location.search);
+    console.log(params);
+    var product = params.get("product");
+    console.log(product);
+
+    var testChange = document.getElementById("H1");
+    var smakchange = document.getElementById("H2");
+    var imgChange = document.getElementById("snus_img");
+    var berkrivchange = document.getElementById("beskrivning")
+    var PrisChange = document.getElementById("Pris")
+
+
+    if (product === "preSnus"){
+
+        testChange.innerHTML = "Pre-snus";
+        imgChange.src ='Bilder/Snus.jpeg';
+        smakchange.innerHTML = "Vattenmelon";
+        PrisChange.innerHTML = "199 :-"
+        berkrivchange.innerHTML = "En snus som kommer ge en ohyglig kick plus en oglömlig pump. Sveriges populäraste koffein snus används av alla idrottare från fotbollspelare till bodybuilders."
+    }
+
+    else if (product === "gainer"){
+
+        testChange.innerHTML = "Meth Gainer";
+        imgChange.src ='Bilder/Methgainer.jpg';
+        smakchange.innerHTML = "Anfetamin";
+        PrisChange.innerHTML = "349 :-"
+        berkrivchange.innerHTML = "Olagligt men värt varenda slant. Meth gaíner hjälper dig att få ut allt av ditt misbruk i gymmet. "
+
+    }
+
+    else if (product === "creatine"){
+
+        testChange.innerHTML = "Crystal creatine";
+        imgChange.src ='Bilder/Crystal_creatine.jpg';
+        smakchange.innerHTML = "Kristal";
+        PrisChange.innerHTML = "499 :-"
+        berkrivchange.innerHTML = "Boostar din muskelbyggnad samt ger den psykadeliska känslan av crystal. I partneship med breakingbad Ab har vi ådstakommit en produkt som alla metheads kommer älska."
+    }
+
+    else if (product === "shrooms"){
+
+        testChange.innerHTML = "Shrooms";
+        imgChange.src ='Bilder/Shrooms.png';
+        smakchange.innerHTML = "Svamp";
+        PrisChange.innerHTML = "399 :-"
+        berkrivchange.innerHTML = "Shrooms är ett pykadelisk tillskott, rekomenderats för alla åldrar över 18 år. Med smak av svamp är shrooms ett bra substitut för kött i alla måltider, hög protein hallt."
+    }
+    else if (product === "tren"){
+
+        testChange.innerHTML = "Tren";
+        imgChange.src ='Bilder/Tren.jpg';
+        smakchange.innerHTML = "Trenbolone Acetate";
+        PrisChange.innerHTML = "1200 :-"
+        berkrivchange.innerHTML = "Anabola androgena steroider, AAS är könshormon som tillverkas på kemisk väg. De stimulerar muskler och olika vävnader i kroppen. Bra för muskelbyggnad."
+    }
+
+
+}
+
+
+function visaProduct(){
+    let visaMer = document.getElementById("k2");
+    console.log(visaMer);
+    visaMer.style.display = "flex";
+
+    let Knapp = document.getElementById("visa_mer_knapp");
+    Knapp.style.display ="none";
+}
