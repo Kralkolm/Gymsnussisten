@@ -1,0 +1,527 @@
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: silver;
+    width: auto;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+/*-----------------------Header----------------------- */
+
+header ul{
+    align-items:center;
+    display:flex;
+    font-size: x-large;
+    gap: 1rem;
+}
+
+#account_bag{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+
+.Rubrik{
+    font-size: x-large;
+    background-color: white;
+    display:flex;   
+    margin-top: 2rem;
+    padding: max(0.5rem, 1.5rem);
+    justify-content: space-between;
+    position: sticky;
+    top: 0; 
+}
+
+#GymSnussisten{
+    font-size:2rem;
+    font-style:italic;
+    font-weight: bolder;
+    justify-content:start;
+    align-self: center;
+}
+
+#site-search{
+    padding:1rem;
+    font-weight: bold;   
+}
+
+header img{
+    width: 2.5rem;
+    height:2.5rem;
+}
+
+#AccountBag{
+    justify-content: flex-end;
+}
+
+.Bag{
+    display:flex;
+    gap:1rem;
+    align-items:center;
+
+}
+
+#Ham_Menu{
+    align-items:center; 
+    width: 2.5rem;
+    height:2.5rem
+}
+
+.Products{
+    font-weight: bold;
+    column-gap:6rem;
+    background-color:#969fd0;
+    padding:2.5rem 3.5rem;
+    font-size:larger;
+}
+
+#Products li{
+    margin-left: 3rem;
+}
+
+.Leverans{
+    font-size:small;
+    padding:.7rem;
+    column-gap:4rem;
+    margin-top:0;
+    background-color:#5C6AB7;
+    color:white;
+    justify-content: center;
+}
+
+/* ------------------Gymsnussisten-------------------*/ 
+
+#Gymsnussist_bild{
+    height: 40rem;
+    background-color:#80aeeb;
+    display:flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+
+}
+
+#Main_text{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 5rem;
+    margin:6rem 0;
+    font-family: 'Ramabhadra', sans-serif;
+    
+}
+
+#text{
+    align-items: center;
+    background-color:white;
+    align-self: flex-end;
+    margin-bottom: 2rem;
+    padding: 1rem 3rem;
+    font-size:xx-large;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#Snus_is_Future{
+    font-size: medium;
+    word-spacing:3em;
+    letter-spacing: 2em;
+}
+
+
+/*---------------Trender---------------*/
+
+
+.trender{
+    text-align: center;
+    background-color: white;
+    margin-top:2em;
+    display:flex;
+    flex-direction: column;
+}
+
+.trender h1{
+    padding:1.5em;
+    font-size: xx-large;
+}
+
+#karrusell__spar{
+    display:flex;
+    flex-direction: row;
+    gap: 3.5em;
+    text-align: left;
+    margin-left:1.3em;
+}
+
+
+.karussell img{
+    height:26em;
+    width:20em;
+}
+
+/*---------------Pundargymmet-----------------*/
+
+.pundargymmet{
+    background-color: rgb(45, 42, 42);
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.pundargymmet h1{
+    background-color: white; 
+    padding:2rem 3rem;
+    width: 10rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pundargymmet ul{
+    display:flex;
+    justify-content: space-around;
+}
+
+.pundargymmet img{
+    height:15em;
+    width:30em;
+}
+
+#TräningsGuide{
+    width: 24rem;
+    padding: 1rem 6rem;
+    margin-top: 7rem;
+}
+
+/*-----------------------Footer-------------*/
+
+footer{
+    background-color: rgb(206, 204, 204);
+    padding-top: 1rem;
+}
+
+footer ul{
+    display:flex;
+    justify-content: space-between;
+    margin:0 1rem;
+    
+}
+
+#Footer_Div{
+    display:flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+#Sverige_flagga{
+    width:3rem;
+    height:2rem;
+}
+
+#Social_Media{
+    display: flex;
+    justify-content: left;
+    margin-top:2rem;
+    gap: 1rem;
+    align-items: center ;
+    padding-bottom: 2rem;
+}
+
+#Social_Media p{
+    color: #5163c8;
+   
+}
+
+#Social_Media img{
+   
+    height: 3rem;
+}
+
+#Youtube_image{
+    width:4rem;
+    height:2rem;
+}
+
+/*-----------------------Pre-snus--------------------*/
+
+#Produkt{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    padding: 3rem 0;
+}
+
+#snus_img{
+    width: 35rem;
+    height: 35rem;
+    margin: 1rem;
+    border-color: #969fd0;
+    border:#969fd0 solid 0.1rem
+}
+
+#Produkt_list{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 1rem 0;
+    margin-left: 5rem;
+}
+
+#Produkt_list p{
+    width: 30rem;
+}
+
+#Recentioner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Recentioner p{
+    text-align: right;
+    width: 50%;
+}
+#Kundvagn{
+    background-color: #969fd0;
+    width: 15rem;
+    text-align: center;
+    border: #5C6AB7 solid 0.1rem;
+    padding:1rem
+}
+
+#beskrivning{
+    padding:1rem;
+    border: #969fd0 solid 0.2rem;
+}
+
+#Produkter{
+    background-color: white;
+    margin: 2rem 0;
+    padding: 3rem 0;
+}
+
+#Produkter h1{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#Karuseell_snus{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Karuseell_snus img{
+    width: 17rem;
+    height: 20rem;
+}
+
+#Karuseell_snus li{
+    display: flex;
+    flex-direction: column;
+}
+
+#k2{
+    display:none;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+
+}
+
+#k2 img{
+    width: 17rem;
+    height: 20rem;
+}
+
+#k2 li{
+    display:flex;
+    flex-direction: column;
+}
+
+#visa_mer_knapp{
+    display:block;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 0.7rem 2rem;
+    border-radius: 2rem;
+    border-color: #606db3;
+    border-width: 0.3rem;
+    background-color: white;
+    color:#5C6AB7;
+    font-size: medium;
+
+    transition: all 0.3s;
+}
+
+#visa_mer_knapp:hover{
+    background-color:#606db3;
+    transform: translateY(-0.5rem);
+    color: #ffffff;
+}
+
+/*-------------------Acccount-----------------------*/
+
+#Account_Site{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1rem;
+}
+
+#Header_account{
+    display: flex;
+    gap: 6rem;
+}
+
+#GymSnussisten_account{
+    font-size: 3rem;
+    font-weight: bolder
+}
+
+#Skapa_konto{
+    display: flex;
+    padding-left: 3rem;
+    margin-top: 1rem;
+    background-color: white;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+#Account_img{
+    width: 35rem;
+    height: 35rem;
+}
+
+#Logga_in{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  
+}
+
+input{
+    width: 20rem;
+    padding: 0.8rem;
+}
+
+#Checkbox_mark{
+    display: flex;
+    gap: 1rem;
+}
+.checkbox{
+    width: 1rem;
+    height: 1rem;
+}
+
+#skapa_konto_knapp{
+    background-color: white;
+    padding:1rem;
+    border-radius: 1rem;
+}
+
+#skapa_konto_knapp:hover{
+    background-color: lightgrey;
+}
+
+
+/*------Media-----------*/
+
+@media only screen and (max-width: 400px) {
+
+    * {
+        font-size: 1rem;
+    }
+
+    header{
+        gap: 0;
+    }
+    #site-search{
+        width: 10rem;
+        font-size: 30%;
+    }
+
+    #account{
+        display: none;
+    }
+
+    header p{
+        font-size: larger;
+    }
+
+    #Barbell_img{
+        width: 100%;
+        height: 70%;
+    }
+
+    #Main_text{
+        flex-direction: column;
+    }
+    #Snus_is_Future{
+        display: none;
+    }
+
+    #text{
+        display: none;
+    }
+
+    .trender h1{
+        padding: 1rem;
+        font-size: 3rem;
+    }
+
+    #karrusell__spar{
+        width: 50%s;
+        flex-wrap: wrap;
+    }
+
+    .pundargymmet ul{
+        flex-wrap: wrap;
+    }
+
+    #snus_img{
+        width: 19rem;
+        height: 19rem;
+    }
+
+    #Produkt_list{
+        margin:0;
+        font-size: 4rem;
+    }
+
+    
+    #Kundvagn{
+        width: 28rem;
+        font-size: 2rem;
+    }
+
+    #beskrivning{
+        width: 40rem;
+        font-size: 1rem;
+    }
+
+    #Karuseell_snus{
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    #karusell_gömd{
+        flex-wrap: wrap;
+    }
+
+    #footer ul{
+        display:none
+
+    }
+}
